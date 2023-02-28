@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts_half - prints lalf of a string
+ * puts_half - prints half of a string
  * @str: the string to print
  * Return: void
  */
@@ -14,7 +14,7 @@ j++;
 }
 if (j % 2 == 1)
 {
-k = (j -1) / 2;
+k = (j - 1) / 2;
 k += 1;
 }
 else
